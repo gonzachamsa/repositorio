@@ -87,3 +87,14 @@ footer img {
 form{
     padding: 50px;
 }
+
+.btn.btn-light {
+    margin: 20px;
+}
+
+.carousel {
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 320px !important;
+    min-height: 320px !important;
+} 

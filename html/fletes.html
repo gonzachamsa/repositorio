@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envíos Zeta | Fletes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Envíos Zeta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    
-</head>
-
-<body>
-
+	</head>
+	<body>
     <header>
-        <img src="../assets/logoZeta.jpeg" alt="logo Envíos Zeta">
-        <nav> <!--Menú navegable-->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./cadeteria.html">Cadetería</a></li>
-                <li><a href="./fletes.html">Fletes</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./cuenta.html">Cuenta</a></li>
-            </ul>
-        </nav>
-        <img src="../assets/logoCuenta.png" alt="opciones de cuenta"> <!--permite modificar datos de usuario y cerrar sesión-->
+      <img src="../assets/logoZeta.jpeg" alt="logo Envíos Zeta">
+      <!--Menú navegable-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="./cadeteria.html">Cadetería</a>
+              <a class="nav-link active" aria-current="page" href="./fletes.html">Fletes</a>
+              <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="./cuenta.html">Cuenta</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <a href="./cuenta.html"><img src="../assets/logoCuenta.png" alt="opciones de cuenta"></a>
     </header>
-
     <main>
-        <section>
-            <img src="../assets/camion.jpg" alt="Camión de fletes">
-            <p></p>
-        </section>
+      <h1>Fletes</h1>
+			<!--Carrusel-->
+      <section class="container-fluid">
+        <div class="row">
+          <div id="carouselExampleFade" class="col carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/camion.jpg" class="d-block w-100" alt="imagen de camión">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/camion2.jpg" class="d-block w-100" alt="otra imagen de camión">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/camioneta.jpg" class="d-block w-100" alt="imagen de camioneta">
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+					</div>
+          <p class="col">¿Estás buscando una empresa de fletes que te ofrezca calidad, seguridad y buen precio? ¿Quieres trasladar tus muebles, electrodomésticos, mercaderías o cualquier otro tipo de carga de forma rápida y eficiente? Entonces, ¡estás en el lugar correcto!
+
+          En Envíos Zeta somos expertos en fletes y mudanzas, con más de 10 años de experiencia en el rubro. Contamos con una flota de vehículos de diferentes capacidades y tamaños, equipados con GPS, alarmas y sistemas de seguridad. Nuestros choferes y ayudantes son profesionales, responsables y amables, que se encargan de cargar, transportar y descargar tus bienes con el mayor cuidado y respeto.
+                    
+          No lo pienses más, si necesitas hacer un flete, ¡Envíos Zeta es tu mejor opción! <a class="contacto" href="./contacto.html">Contáctanos hoy mismo</a> y reserva tu servicio. Te garantizamos la máxima satisfacción y el mejor precio del mercado.</p>
+				</div>
+      </section>
     </main>
-
     <footer>
-        <a href="https://www.instagram.com/envioszeta/"><img src="../assets/instagram.svg" alt="Contacto Instagram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100079768833607&mibextid=ZbWKwL"><img src="../assets/facebook.svg" alt="Contacto Facebook"></a>
-        <p>2023 - Todos los derechos reservados</p>
+      <a href="https://www.instagram.com/envioszeta/"><img src="../assets/instagram.svg" alt="Contacto Instagram"></a>
+      <a href="https://www.facebook.com/profile.php?id=100079768833607&mibextid=ZbWKwL"><img src="../assets/facebook.svg" alt="Contacto Facebook"></a>
+      <p>2023 - Todos los derechos reservados</p>
     </footer>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
 </html>
