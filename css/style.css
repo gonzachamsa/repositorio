@@ -3,6 +3,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     color: #1e2322;
     background-color: #B4B9F4;
+    margin-top: 20px;
 }
 
 header {
@@ -81,4 +82,8 @@ footer {
 footer img {
     width: 40px;
     height: 40px;
+}
+
+form{
+    padding: 50px;
 }
