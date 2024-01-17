@@ -1,0 +1,37 @@
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    img { 
+        max-width: 500px; 
+        max-height: 500px;
+        border-radius: 5%;
+    }
+    p {
+        font-size: 2em;
+        .contacto {
+            text-decoration: none;
+            color: inherit;
+        }
+        .contacto:hover {
+            color: aliceblue;
+        }
+    }
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 50px;
+    }
+    form {
+        padding: 50px;
+    }
+    .btn.btn-light {
+        margin: 20px;
+    }
+    .carousel {
+        max-width: 500px;
+        max-height: 500px;
+        min-width: 320px !important;
+        min-height: 320px !important;
+    } 
+}

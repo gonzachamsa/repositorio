@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    .logo {
+        justify-content: flex-start;
+    }
+    .cuenta {
+        justify-content: flex-end;
+    }
+    .nav-link {
+        font-family: 'Noto Sans', sans-serif !important;
+        color: aliceblue !important;
+    }
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        background-color: #B4B9F4 !important;
+        font-size: 2em;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}

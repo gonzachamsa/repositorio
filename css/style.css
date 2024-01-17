@@ -1,100 +1,79 @@
 body {
-    font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
-    color: #1e2322;
-    background-color: #B4B9F4;
-    margin-top: 20px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  color: #1e2322;
+  background-color: #B4B9F4;
+  margin-top: 20px;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
-.logo {
-    justify-content: flex-start;
+header .logo {
+  justify-content: flex-start;
 }
-
-.cuenta {
-    justify-content: flex-end;
+header .cuenta {
+  justify-content: flex-end;
 }
-
-/*Menú navegable*/
-
-.nav-link {
-    font-family: 'Noto Sans', sans-serif !important;
-    color: aliceblue !important;
+header .nav-link {
+  font-family: "Noto Sans", sans-serif !important;
+  color: aliceblue !important;
 }
-
-.navbar.navbar-expand-lg.bg-body-tertiary {
-    background-color: #B4B9F4 !important;
-    font-size: 2em;
+header .navbar.navbar-expand-lg.bg-body-tertiary {
+  background-color: #B4B9F4 !important;
+  font-size: 2em;
 }
-
-/*logos del header*/
-
 header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-
-/*main*/
 
 main {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-main img { 
-    max-width: 500px; 
-    max-height: 500px;
-    border-radius: 5%;
-} 
-
+main img {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 5%;
+}
 main p {
-    font-size: 2em;
+  font-size: 2em;
 }
-
-.contacto {
-    text-decoration: none;
-    color: inherit;
+main p .contacto {
+  text-decoration: none;
+  color: inherit;
 }
-
-.contacto:hover {
-    color: aliceblue;
+main p .contacto:hover {
+  color: aliceblue;
 }
-
-h1 {
-    font-size: 3em;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+main h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
-
-
-/*footer*/
+main form {
+  padding: 50px;
+}
+main .btn.btn-light {
+  margin: 20px;
+}
+main .carousel {
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 320px !important;
+  min-height: 320px !important;
+}
 
 footer {
-    text-align: center;
+  text-align: center;
 }
-
 footer img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
-form{
-    padding: 50px;
-}
-
-.btn.btn-light {
-    margin: 20px;
-}
-
-.carousel {
-    max-width: 500px;
-    max-height: 500px;
-    min-width: 320px !important;
-    min-height: 320px !important;
-} 
+/*# sourceMappingURL=style.css.map */
