@@ -11,9 +11,9 @@ main {
         .contacto {
             text-decoration: none;
             color: inherit;
-        }
-        .contacto:hover {
-            color: aliceblue;
+            &:hover {
+                color: aliceblue;
+            }
         }
     }
     h1 {
