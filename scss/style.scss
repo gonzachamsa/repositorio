@@ -1,4 +1,9 @@
+@import "utilities/extend.scss";
+@import "utilities/mixin.scss";
+@import "utilities/variables.scss";
 @import "base/reset.scss";
 @import "layout/header.scss";
 @import "layout/main.scss";
 @import "layout/footer.scss";
+@import "components/buttons.scss";
+@import "components/carousel.scss";

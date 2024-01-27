@@ -1,0 +1,6 @@
+@mixin fuente-titulos($size, $align, $family, $color) {
+  font-size: $size;
+  text-align: $align;
+  font-family: $family;
+  color: $color;
+}
