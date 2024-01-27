@@ -13,6 +13,17 @@ header {
 header .logo {
   justify-content: flex-start;
 }
+header .logo:hover {
+  animation: rotacion 3s;
+}
+@keyframes rotacion {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 header .cuenta {
   justify-content: flex-end;
 }

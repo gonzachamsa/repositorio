@@ -3,6 +3,17 @@ header {
     justify-content: space-around;
     .logo {
         justify-content: flex-start;
+        &:hover {
+            animation: rotacion 3s;
+        }
+        @keyframes rotacion {
+            0% {
+                transform: rotate(0);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     }
     .cuenta {
         justify-content: flex-end;
